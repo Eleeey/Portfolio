@@ -1,0 +1,53 @@
+  @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  font-family: 'Edu TAS Beginner', cursive;
+  /* border: .5px solid black; */
+}
+
+
+.contact, .projects{
+  @apply flex justify-center align-middle flex-wrap w-[100%] h-64  md:w-full rounded-lg;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contact{
+  /* @apply md:top-[56%] sm:top-[62.5%] lg:top-[62.5%]; */
+  background-image: url(/aboutme.jpg);
+} 
+
+
+.projects{
+  background-image: url(/pexels-pixabay-270408.jpg);
+  animation: bg 30s ease-in-out infinite;
+ 
+}
+.projects:hover,.contact:hover{
+  border: 2px solid black;
+}
+
+
+@keyframes bg {
+  0%{
+    background-image: url(/pexels-pixabay-270408.jpg);
+  }
+  25%{
+    background-image: url(/5474248_2328020.jpg);
+  }
+  50%{
+    background-image: url(/pexels-markus-spiske-360591.jpg);
+  }
+  75%{
+    background-image: url(/6091745_3155950.jpg);
+  }
+  100%{
+    background-image: url(/pexels-danny-meneses-943096.jpg);
+  }
+  
+}
