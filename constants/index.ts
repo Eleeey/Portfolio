@@ -31,8 +31,7 @@ export const PROJECTS = [
     link: "https://fuzzy-lovat.vercel.app",
     ghubLink: "https://github.com/Eleeey/Fuzzy",
     description:
-      "Fuzzy, an automation app that seamlessly automates your tasks to apps like discord, notion and slack and lots more",
-    
+      "Fuzzy, an automation app that seamlessly automates your tasks to apps like discord, notion and slack and lots more.Built with NextJs, React, Ts, Tailwind css, PostgreSql, stripe and shadcnUi,Equiped with authentication from clerk and payment functionalities with stripe for.",
   },
   {
     name: "Evently",
@@ -40,17 +39,15 @@ export const PROJECTS = [
     link: "https://evently-lilac-beta.vercel.app",
     ghubLink: "https://github.com/Eleeey/Evently",
     description:
-      "Evently is a ticket booking app that handles the purchase of all tickets to your favorite events online and onsite",
+      "Evently is a ticket booking app that handles the purchase of all tickets to your favorite events online and onsite. Built with NextJs, React, Ts, Tailwind css, MongoDb, Stripe and shadcnUi, Equiped with authentication from clerk and payment functionalities with stripe for seamless checkout.",
     techUsed: ["/Tailwind.svg", "TS.svg", "/Nextjs.svg"],
   },
   {
-    name: "Fuzzy",
+    name: "Hotelier",
     image: "/hotelier.png",
     link: "https://https://eleeey.github.io/HOTELIER/",
     ghubLink: "https://github.com/Eleeey/Hotelier",
-    description:
-      "Hotelier is a hospitality website ",
-    
+    description: "Hotelier is a hospitality website. Built with Html, css, Javascript, Scss, Bootsrap",
   },
 
   // {},
@@ -69,7 +66,6 @@ export const PROJECTS = [
     link: "https://inquisitive-dragon-cde0c3.netlify.app/",
     ghubLink: "https://github.com/Eleeey/CYPTO",
     description:
-      "Cypto is a easy to handle app that bundles all the data about your favorite cryptocurrencies such as market cap and price changes over time and news that affects them",
- 
+      "Cypto is a easy to handle app that bundles all the data about your favorite cryptocurrencies such as market cap and price changes over time and news that affects them. Built with React, Redux, Tailwind Css and Rapid api",
   },
 ];
